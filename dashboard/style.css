@@ -1,145 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Roboto:wght@700&family=Teko:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Roboto:wght@700&family=Teko:wght@600&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: #1F1517;
-    color:#ffffff;
+body {
+  background: #1f1517;
+  color: #ffffff;
 }
 
-html{
-    font-family: Inter, sans-serif;
-    font-weight: 500;
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-nav{
-    max-width: 1120px;
-    margin: auto;
-    padding: 1.5rem 10rem;
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    font-family: Teko;
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
+.logo {
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.menu{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    color: #fff2e780;
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #fff2e780;
 }
 
-.github{
-    color: #fff2e7;
-    font-weight: 600;
+.github {
+  color: #fff2e7;
+  font-weight: 600;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
+main {
+  display: flex;
+  flex-direction: column;
 }
 
-.principal{
-    background: #181012;
+.principal {
+  background: #181012;
 }
 
-.hero{
-    max-width: 1120px;
-    height: 60vh;
+.hero {
+  max-width: 1120px;
+  height: 60vh;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
 
-    padding: 0rem 2rem;
-    margin: auto;
+  padding: 0rem 2rem;
+  margin: auto;
 
-    overflow: clip;
+  overflow: clip;
 }
 
-.hero-conteudo{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;   
+.hero-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.destaque{
-    font-family: Epilogue;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
+.destaque {
+  font-family: Epilogue;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-.marrom{
-    color: #a45a49;
+.marrom {
+  color: #a45a49;
 }
 
-h1{
-    font-family: Montserrat;
-    font-size: 3.5rem;
-    font-weight: 800;
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 
-hr{
-    border-color: #a45a49;
+hr {
+  border-color: #a45a49;
 }
 
-.hero-subtitulo{
-    color: #c7bab3;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-weight: 400;
+.hero-subtitulo {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-.hero-imagens-container{
-    max-width: 200%;
-    column-count: 4;
-    column-gap: 1rem;
-    margin: -1rem;
+.hero-imagens-container {
+  max-width: 200%;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: -1rem;
 }
 
-.hero-imagens-container > figure > img{
-    width: 100%;
-    border-radius: 0.5rem;
+.hero-imagens-container > figure > img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .botao-container {
-    width: 100%;
-    max-width: 1120px;
-    margin: auto;
-    transform: translate("0, -50%");
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  transform: translate("0, -50%");
 }
 
 button {
-    border: none;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background: #a45a49;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #a45a49;
 }
 
 .receitas {
-    display: flex;
-    
+  display: flex;
 }
