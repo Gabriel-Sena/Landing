@@ -96,6 +96,10 @@ main {
   color: #a45a49;
 }
 
+.amarelo {
+  color: #e7a80e;
+}
+
 h1 {
   font-family: Montserrat;
   font-size: 3.5rem;
@@ -141,4 +145,123 @@ button {
 
 .receitas {
   display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  padding: 3rem 2rem;
+  margin: auto;
+}
+
+.receitas-cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.receitas-titulo {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.receitas-subtitulo {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #c7bab3;
+}
+
+.receitas-card-container {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.receitas-card {
+  background: #241a1c;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+  margin-top: 2rem;
+}
+
+.receitas-card-cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.receitas-card-cabecalho-detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.receita-titulo {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.receita-avaliacao {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #756a67;
+}
+
+.receita-descricao {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #c7bab3;
+}
+
+.receita-autor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.receita-autor > img {
+  border-radius: 20rem;
+  width: 1.5rem;
+}
+
+.receita-autor-nome {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #c7bab3;
+}
+
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: #23181a;
+}
+
+.footer-copy {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff2e7;
+}
+
+.footer-autor {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 242, 231, 0.5);
 }
